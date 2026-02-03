@@ -12,7 +12,7 @@ CSC8608 – TP1
 Lien du dépôt : https://github.com/tatiana-nrs/CSC8608
 
 ### Environnement d’exécution
-Exécution sur nœud GPU via SLURM
+Exécution en local
 
 ### Arborescence
 
