@@ -18,11 +18,11 @@ Exécution sur nœud GPU via SLURM
 
 On a cette arborescence:
 
-![alt text](img/image.png)
+![alt text](../img/image.png)
 
 ### **Question 1.e**
 
-![alt text](img/image-1.png)
+![alt text](../img/image-1.png)
 
 Le TP est exécuté en local.
 
@@ -30,13 +30,13 @@ Le TP est exécuté en local.
 
 On peut voir que l’import de segment_anything fonctionne:
 
-![alt text](img/image-2.png)
+![alt text](../img/image-2.png)
 
 ### **Question 1.i**
 
 Le port que j'ai choisi est 8517.
 
-![alt text](img/image-3.png)
+![alt text](../img/image-3.png)
 
 ---
 
@@ -46,7 +46,7 @@ Le port que j'ai choisi est 8517.
 
 On a 10 images téléchargées comme on peut le voir ici:
 
-![alt text](img/image-4.png)
+![alt text](../img/image-4.png)
 
 ### Images représentatives
 
@@ -68,11 +68,11 @@ Scène difficile combinant reflets, texture de l’eau et requin peu visible
 
 Un exemple de cas simple serait la plante:
 
-![alt text](img/image-5.png)
+![alt text](../img/image-5.png)
 
 Un cas difficile serait le requin avec les reflets de l'eau:
 
-![alt text](img/image-6.png)
+![alt text](../img/image-6.png)
 
 ---
 
@@ -82,13 +82,13 @@ Un cas difficile serait le requin avec les reflets de l'eau:
 
 Le fichier est bien présent:
 
-![alt text](img/image-7.png)
+![alt text](../img/image-7.png)
 
 ### **Question 3.e**
 
 On obtient:
 
-![alt text](img/image-8.png)
+![alt text](../img/image-8.png)
 
 Le modèle utilisé est Segment Anything – ViT-H (vit_h), avec le checkpoint suivant sam_vit_h_4b8939.pt
 
@@ -105,7 +105,7 @@ Les premières limites observées concernent la sensibilité au placement de la 
 
 Un overlay a été généré à partir de l’image simple_flower_white_green_bg.jpg:
 
-![alt text](img/image-9.png)
+![alt text](../img/image-9.png)
 
 
 Un tableau récapitulatif serait:
@@ -127,11 +127,11 @@ L’overlay est un outil pour comprendre et diagnostiquer le comportement du mod
 
 Pour le cas simple on a :
 
-![alt text](img/image-10.png)
+![alt text](../img/image-10.png)
 
 Et pour le cas difficile, nous obtenons:
 
-![alt text](img/image-11.png)
+![alt text](../img/image-11.png)
 
 Voici un tableau récapitulatif:
 
@@ -156,27 +156,27 @@ On observe que la meilleure segmentation est avec une bbox légèrement plus gra
 
 On obtient, avec bbox seule sans points:
 
-![alt text](img/image-12.png)
+![alt text](../img/image-12.png)
 
 L'objet que je voulais segmenter est la dame en vélo au centre. Même en changeant le masque, aucun n'isole le vélo.
 
 Avec un point FG au centre de la dame, on obtient:
 
-![alt text](img/image-13.png)
+![alt text](../img/image-13.png)
 
 Les coordonnées du point FG sont: 
 
-![alt text](img/image-14.png)
+![alt text](../img/image-14.png)
 
 Ici, on a une amélioration car le masque se rapproche du vélo mais reste trop large et inclut encore le bus. Le meilleur masque est le 1.
 
 On tente en mettant un point BG sur le bus qui est très dominant:
 
-![alt text](img/image-15.png)
+![alt text](../img/image-15.png)
 
 On avait ces coordonnées:
 
-![alt text](img/image-16.png)
+![alt text](../img/image-16.png)
 
 Le multimask qui isole le mieux le vélo est le multimask 2.
 
@@ -184,27 +184,27 @@ Le multimask qui isole le mieux le vélo est le multimask 2.
 
 Avec bbox seule sans points, on a:
 
-![alt text](img/image-17.png)
+![alt text](../img/image-17.png)
 
 L'objet que je voulais segmenter était la plante centrale. Ici, on voit que seule l'étagère est inclue.
 
 En ajoutant un point FG, on a:
 
-![alt text](img/image-18.png)
+![alt text](../img/image-18.png)
 
 Les coordonnées du point sont:
 
-![alt text](img/image-19.png)
+![alt text](../img/image-19.png)
 
 Ici, on voit que la plante est entièrement englobée mais l'étagère l'est aussi.
 
 En rajoutant un point BG, on obtient:
 
-![alt text](img/image-20.png)
+![alt text](../img/image-20.png)
 
 Les coordonnées de ce deuxième point sont:
 
-![alt text](img/image-21.png)
+![alt text](../img/image-21.png)
 
 Le meilleur masque était le masque 0 de nouveau. On voit que la plante est bien segmentée.
 
