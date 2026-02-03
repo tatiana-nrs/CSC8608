@@ -22,19 +22,18 @@ On a cette arborescence:
 
 ### **Question 1.e**
 
-![alt text](../img/image-1.png)
-
 Le TP est exécuté en local.
 
 ### **Question 1.g**
 
 On peut voir que l’import de segment_anything fonctionne:
 
-![alt text](../img/image-2.png)
+```
+ok
+sam_ok
+```
 
 ### **Question 1.i**
-
-Le port que j'ai choisi est 8517.
 
 ![alt text](../img/image-3.png)
 
