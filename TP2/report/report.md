@@ -105,7 +105,7 @@ Pour strength = 0.35:
 
 Avec strength = 0.60:
 
-![alt text](../img/image-10.png)
+![alt text](../img/image-19.png)
 
 **Ce qui est conservé :**
 
