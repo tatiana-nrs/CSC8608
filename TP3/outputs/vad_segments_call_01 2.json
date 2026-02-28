@@ -1,0 +1,73 @@
+{
+  "audio_path": "TP3/data/call_01.wav",
+  "sample_rate": 16000,
+  "duration_s": 36.552,
+  "min_segment_s": 0.6,
+  "segments": [
+    {
+      "start_s": 0.578,
+      "end_s": 6.494
+    },
+    {
+      "start_s": 6.85,
+      "end_s": 9.918
+    },
+    {
+      "start_s": 10.018,
+      "end_s": 12.414
+    },
+    {
+      "start_s": 12.514,
+      "end_s": 13.95
+    },
+    {
+      "start_s": 14.306,
+      "end_s": 15.646
+    },
+    {
+      "start_s": 15.842,
+      "end_s": 18.206
+    },
+    {
+      "start_s": 18.434,
+      "end_s": 20.318
+    },
+    {
+      "start_s": 21.922,
+      "end_s": 22.558
+    },
+    {
+      "start_s": 22.754,
+      "end_s": 23.422
+    },
+    {
+      "start_s": 25.154,
+      "end_s": 29.086
+    },
+    {
+      "start_s": 29.314,
+      "end_s": 31.326
+    },
+    {
+      "start_s": 31.554,
+      "end_s": 32.734
+    },
+    {
+      "start_s": 33.058,
+      "end_s": 34.046
+    },
+    {
+      "start_s": 34.242,
+      "end_s": 35.07
+    },
+    {
+      "start_s": 35.426,
+      "end_s": 36.094
+    }
+  ],
+  "stats": {
+    "num_segments": 15,
+    "total_speech_s": 29.316,
+    "speech_ratio": 0.8020354563361786
+  }
+}

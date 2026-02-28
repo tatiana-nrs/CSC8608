@@ -1,0 +1,62 @@
+{
+  "audio_path": "TP3/data/call_01.wav",
+  "model_id": "openai/whisper-tiny",
+  "device": "cpu",
+  "audio_duration_s": 36.552,
+  "elapsed_s": 5.365527153015137,
+  "rtf": 0.14679161613633007,
+  "pii_stats": {
+    "emails": 1,
+    "phones": 0,
+    "orders": 0
+  },
+  "intent_scores": {
+    "refund_or_replacement": 3,
+    "delivery_issue": 5,
+    "general_support": 6
+  },
+  "intent": "general_support",
+  "top_terms": [
+    [
+      "thank",
+      2
+    ],
+    [
+      "calling",
+      2
+    ],
+    [
+      "number",
+      2
+    ],
+    [
+      "hello",
+      1
+    ],
+    [
+      "customer",
+      1
+    ],
+    [
+      "support",
+      1
+    ],
+    [
+      "name",
+      1
+    ],
+    [
+      "alex",
+      1
+    ],
+    [
+      "will",
+      1
+    ],
+    [
+      "help",
+      1
+    ]
+  ],
+  "redacted_text": "hello, thank you 4 calling customer support.my name is alex and i will help you today.im calling about an order that arrived the maged.the package was delivered yesterday.but the screen is cracked.i would like your refund.or replacement as soon as possible.the rd number is a.9 th.7.you can reach [REDACTED_EMAIL] also, my fun number is 5550199 thank you."
+}
